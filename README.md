@@ -42,7 +42,7 @@ This command will compile your code, package the application into an executable 
 
 # Testing the Application
 
-1. You can test the application by hitting the exposed API using the postman collection provided in point 5.
+1. You can test the application by hitting the exposed API using the postman collection provided in Additional Notes.
 
 2. There is a simple interface feature after you execute mvn spring-boot:run, simply follow the instruction written on the console and you can convert temperatures even without hitting the API.
 

@@ -1,10 +1,9 @@
 package com.example.demo;
 
 import com.example.demo.model.TempratureCelciusRequest;
-import com.example.demo.model.TempratureCelciusResponse;
 import com.example.demo.model.TempratureFahrenheitRequest;
-import com.example.demo.services.TemperatureConverter;
-import com.example.demo.services.SimpleTemperatureConverter;
+import com.example.demo.service.TemperatureConverter;
+import com.example.demo.service.SimpleTemperatureConverter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

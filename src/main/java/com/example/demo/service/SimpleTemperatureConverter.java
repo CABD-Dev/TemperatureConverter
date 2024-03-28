@@ -1,9 +1,7 @@
-package com.example.demo.services;
+package com.example.demo.service;
 
 import com.example.demo.model.TempratureCelciusRequest;
-import com.example.demo.model.TempratureCelciusResponse;
 import com.example.demo.model.TempratureFahrenheitRequest;
-import com.example.demo.model.TempratureFahrenheitResponse;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

@@ -1,10 +1,7 @@
 package com.example.demo.service;
 
 import com.example.demo.model.TempratureCelciusRequest;
-import com.example.demo.model.TempratureCelciusResponse;
 import com.example.demo.model.TempratureFahrenheitRequest;
-import com.example.demo.model.TempratureFahrenheitResponse;
-import com.example.demo.services.SimpleTemperatureConverter;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -16,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
 @ExtendWith(MockitoExtension.class)
-class TempratureConverterTest {
+class SimpleTemperatureConverterTest {
 
     @InjectMocks
     SimpleTemperatureConverter simpleTemperatureConverter;
